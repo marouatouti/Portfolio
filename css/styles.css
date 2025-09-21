@@ -11022,12 +11022,14 @@ section.resume-section .resume-section-content {
     box-shadow: 0 10px 20px rgb(0 0 0 / 26%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+
 }
 
 .contact-form .form-group {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  
 }
 
 .contact-form label {
@@ -11063,14 +11065,21 @@ section.resume-section .resume-section-content {
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
+
 }
 
 .contact-form button:hover {
-  background: #8650ff;
+  background: #a45c40b8;
 }
 
 @media (max-width: 600px) {
   .contact-form {
     padding: 20px;
   }
+
+}
+.contact-form{
+            display: flex !important
+; 
+    flex-direction: column !important;
 }
